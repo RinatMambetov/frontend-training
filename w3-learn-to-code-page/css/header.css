@@ -1,0 +1,24 @@
+header {
+  padding-left: 12px;
+  padding-right: 16px;
+  border-bottom: 1px solid #000;
+}
+
+.header__logo {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header__logo_img {
+  width: 50px;
+}
+
+.header__logo:hover {
+  filter: brightness(90%);
+}
+
+.header__btn-group {
+  display: inline-block;
+  font-size: 18px;
+  padding: 16px;
+}
