@@ -1,13 +1,28 @@
+@import url("outline.css");
+
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 @import url("header.css");
+@import url("footer.css");
 
-html {
-  box-sizing: border-box;
+hr {
+  margin: 0;
+}
+
+:root {
+  --purple: #9763f6;
+  --pink: #ffc0c7;
+  --yellow: #fff4a3;
+  --green: #04aa6d;
 }
 
 body {
   margin: 0;
+}
+
+.wrapper {
+  box-sizing: border-box;
   font-family: "Source Sans Pro", "Verdana", sans-serif;
   line-height: 1.5;
+  font-size: 18px;
 }
