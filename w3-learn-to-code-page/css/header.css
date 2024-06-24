@@ -1,9 +1,15 @@
+@import url("buttons.css");
+
 header {
   display: flex;
   align-items: center;
-  flex-direction: row;
   padding-left: 28px;
   padding-right: 16px;
+  justify-content: space-between;
+}
+
+.header__menu-group {
+  display: flex;
 }
 
 .logo {
@@ -37,7 +43,7 @@ header {
 .menu__link {
   padding: 25px 20px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   color: inherit;
   display: inline-block;
 }
@@ -58,23 +64,17 @@ header {
   left: 3px;
 }
 
+.header__btns-group {
+  display: flex;
+}
+
 .header-btns__list {
   display: flex;
   list-style-type: none;
 }
 
-.header-btns__elem:hover {
-  filter: brightness(95%);
-}
-
-.header-btns__link {
+.header-btns__item {
   margin-right: 15px;
-  padding: 8px 16px;
-  border-radius: 30px;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
 }
 
 .header-btns__img {
@@ -83,30 +83,8 @@ header {
   top: 3px;
 }
 
-.buttons__link_purple {
-  background-color: var(--purple);
-  color: white;
-}
-
-.buttons__link_pink {
-  background-color: var(--pink);
-}
-
-.buttons__link_yellow {
-  background-color: var(--yellow);
-}
-
-.buttons__link_green {
-  background-color: var(--green);
-  color: white;
-}
-
 .login__img {
   width: 60px;
   position: relative;
   top: 5px;
-}
-
-.grow {
-  flex-grow: 1;
 }
